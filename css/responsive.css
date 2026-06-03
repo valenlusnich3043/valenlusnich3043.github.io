@@ -1,0 +1,34 @@
+/* ============================================
+   responsive.css
+   Media queries para tablets y mobile
+   ============================================ */
+
+@media (max-width: 860px) {
+  /* Navbar: ocultar links de escritorio, mostrar hamburguesa */
+  .nav-links   { display: none; }
+  .hamburger   { display: flex; }
+
+  /* Grids que pasan a una columna */
+  .hero-grid,
+  .about-grid,
+  .contact-grid   { grid-template-columns: 1fr; }
+
+  .projects-grid,
+  .skills-layout  { grid-template-columns: 1fr; }
+
+  /* El grid de stats del hero se mantiene 2 columnas */
+  .hero-stat-grid { grid-template-columns: 1fr 1fr; }
+
+  /* Formulario: columnas a una sola */
+  .form-row { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+  section { padding: 72px 20px; }
+
+  .nav-inner    { padding: 0 20px; }
+  .mobile-menu  { padding: 16px 20px 20px; }
+
+  /* Stats del hero en mobile pequeño */
+  .hero-stat-grid { grid-template-columns: 1fr 1fr; }
+}

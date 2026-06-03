@@ -1,0 +1,140 @@
+/* ============================================
+   js/translations.js
+   Textos en español e inglés para toda la web.
+   Para agregar un idioma nuevo: copiá un bloque
+   y cambiá los valores.
+   ============================================ */
+
+const translations = {
+  es: {
+    /* Navbar */
+    "nav.about":    "Sobre mí",
+    "nav.projects": "Proyectos",
+    "nav.skills":   "Habilidades",
+    "nav.contact":  "Contacto",
+    "nav.dark":     "Oscuro",
+    "nav.light":    "Claro",
+
+    /* Hero */
+    "hero.eyebrow": "Buenos Aires, Argentina",
+    "hero.role":    "<strong>Estudiante de Ingeniería en Sistemas</strong> (UTN) &amp;<br>Analista de Datos Jr. orientado a SQL, Power BI y Python.",
+    "hero.cta1":    "Ver proyectos",
+    "hero.cta2":    "Contactar",
+    "hero.stat1":   "Proyectos",
+    "hero.stat2":   "Tecnologías",
+    "hero.stat3":   "Universidad",
+    "hero.stat4":   "Data Analytics",
+
+    /* Sobre mí */
+    "about.label":            "Sobre mí",
+    "about.title":            "Estudiante & Analista",
+    "about.p1":               "Soy estudiante de <strong>Ingeniería en Sistemas</strong> en la UTN y <strong>Técnico en Computación</strong>. Me especializo en análisis de datos y disfruto transformar datos crudos en información que impulse decisiones.",
+    "about.p2":               "Actualmente cursando <strong>Data Analytics en Fundación Forge</strong>, profundizando mis habilidades en SQL, Power BI, Excel y Python con un enfoque práctico y orientado a resultados.",
+    "about.p3":               "Me defino como un perfil <strong>autodidacta y analítico</strong>, con gran motivación para crecer en el área IT. Combino formación académica sólida con proyectos prácticos que demuestran mis capacidades técnicas.",
+    "about.meta.edu":         "Educación",
+    "about.meta.edu_val":     "Ing. en Sistemas – UTN",
+    "about.meta.course":      "Curso actual",
+    "about.meta.course_val":  "Data Analytics – Fundación Forge",
+    "about.meta.loc":         "Ubicación",
+
+    /* Proyectos */
+    "projects.label": "Proyectos",
+    "projects.title": "Trabajo destacado",
+    "projects.sub":   "Una selección de proyectos académicos y personales que demuestran mis habilidades técnicas.",
+    "p1.title": "Análisis de Ventas",
+    "p1.desc":  "Pipeline ETL completo con limpieza de datos en SQL, análisis exploratorio, modelado en Excel y dashboard interactivo en Power BI con KPIs y medidas DAX.",
+    "p2.title": "Sistema de Inventario",
+    "p2.desc":  "Sistema backend con arquitectura orientada a objetos usando Java y Spring Boot, con conexión y persistencia de datos en MySQL.",
+    "p3.title": "Base de Datos Empresarial",
+    "p3.desc":  "Sistema académico para gestión de clientes y presupuestos, implementando triggers SQL, stored procedures y una interfaz en Visual Basic .NET.",
+    "p4.title": "Videojuego de Plataformas",
+    "p4.desc":  "Proyecto académico desarrollado en Java aplicando principios de POO, herencia, polimorfismo y lógica de juego orientada a eventos.",
+
+    /* Habilidades */
+    "skills.label":  "Habilidades",
+    "skills.title":  "Stack técnico",
+    "skills.sub":    "Tecnologías y herramientas con las que trabajo y sigo aprendiendo.",
+    "sk.data":       "Datos & BI",
+    "sk.langs":      "Lenguajes",
+    "sk.backend":    "Backend & Web",
+    "sk.tools":      "Herramientas",
+
+    /* Contacto */
+    "contact.label": "Contacto",
+    "contact.title": "¡Hablemos!",
+    "contact.sub":   "¿Tenés un proyecto en mente o querés colaborar? Mandame un mensaje.",
+    "contact.text":  "Estoy siempre abierto a nuevas oportunidades, proyectos de datos o simplemente charlar sobre tecnología. Mi bandeja de entrada está abierta.",
+    "form.name":     "Nombre",
+    "form.msg":      "Mensaje",
+    "form.send":     "Enviar mensaje",
+
+    /* Footer */
+    "footer.built": "Hecho con dedicación",
+  },
+
+  en: {
+    /* Navbar */
+    "nav.about":    "About",
+    "nav.projects": "Projects",
+    "nav.skills":   "Skills",
+    "nav.contact":  "Contact",
+    "nav.dark":     "Dark",
+    "nav.light":    "Light",
+
+    /* Hero */
+    "hero.eyebrow": "Buenos Aires, Argentina",
+    "hero.role":    "<strong>Systems Engineering Student</strong> (UTN) &amp;<br>Jr. Data Analyst focused on SQL, Power BI and Python.",
+    "hero.cta1":    "View projects",
+    "hero.cta2":    "Get in touch",
+    "hero.stat1":   "Projects",
+    "hero.stat2":   "Technologies",
+    "hero.stat3":   "University",
+    "hero.stat4":   "Data Analytics",
+
+    /* About */
+    "about.label":            "About me",
+    "about.title":            "Student & Analyst",
+    "about.p1":               "I'm a <strong>Systems Engineering</strong> student at UTN and <strong>Computer Technician</strong>. I specialize in data analysis and enjoy transforming raw data into insights that drive decisions.",
+    "about.p2":               "Currently studying <strong>Data Analytics at Fundación Forge</strong>, deepening my skills in SQL, Power BI, Excel and Python with a hands-on, results-oriented approach.",
+    "about.p3":               "I define myself as a <strong>self-taught and analytical</strong> professional, highly motivated to grow in IT. I combine solid academic training with practical projects that showcase my technical capabilities.",
+    "about.meta.edu":         "Education",
+    "about.meta.edu_val":     "Systems Engineering – UTN",
+    "about.meta.course":      "Current course",
+    "about.meta.course_val":  "Data Analytics – Fundación Forge",
+    "about.meta.loc":         "Location",
+
+    /* Projects */
+    "projects.label": "Projects",
+    "projects.title": "Featured work",
+    "projects.sub":   "A selection of academic and personal projects that demonstrate my technical skills.",
+    "p1.title": "Sales Analysis",
+    "p1.desc":  "Full ETL pipeline with SQL data cleaning, exploratory analysis, Excel modeling and interactive Power BI dashboard with KPIs and DAX measures.",
+    "p2.title": "Inventory System",
+    "p2.desc":  "Backend system with object-oriented architecture using Java and Spring Boot, connected to a MySQL database for data persistence.",
+    "p3.title": "Enterprise Database System",
+    "p3.desc":  "Academic system for client and budget management, implementing SQL triggers, stored procedures and a Visual Basic .NET interface.",
+    "p4.title": "Platform Videogame",
+    "p4.desc":  "Academic project developed in Java applying OOP principles, inheritance, polymorphism and event-driven game logic.",
+
+    /* Skills */
+    "skills.label":  "Skills",
+    "skills.title":  "Tech stack",
+    "skills.sub":    "Technologies and tools I work with and continue learning.",
+    "sk.data":       "Data & BI",
+    "sk.langs":      "Languages",
+    "sk.backend":    "Backend & Web",
+    "sk.tools":      "Tools",
+
+    /* Contact */
+    "contact.label": "Contact",
+    "contact.title": "Let's talk!",
+    "contact.sub":   "Have a project in mind or want to collaborate? Send me a message.",
+    "contact.text":  "I'm always open to new opportunities, data projects or just talking about technology. My inbox is open.",
+    "form.name":     "Name",
+    "form.msg":      "Message",
+    "form.send":     "Send message",
+
+    /* Footer */
+    "footer.built": "Made with dedication",
+  }
+};

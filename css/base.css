@@ -1,0 +1,177 @@
+/* ============================================
+   base.css
+   Variables CSS, reset, tipografía y
+   componentes compartidos (botones, tags, etc.)
+   ============================================ */
+
+/* ── VARIABLES ── */
+:root {
+  --bg:           #f5f2ee;
+  --bg2:          #eceae5;
+  --surface:      #ffffff;
+  --border:       #d8d4cc;
+  --text:         #1a1815;
+  --text-muted:   #6b6560;
+  --accent:       #c8521a;
+  --accent2:      #1a4fc8;
+  --accent-light: #f0e6df;
+  --nav-bg:       rgba(245, 242, 238, 0.92);
+  --shadow:       0 2px 24px rgba(26, 24, 21, 0.08);
+  --radius:       12px;
+  --transition:   0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
+  --bg:           #111010;
+  --bg2:          #1a1917;
+  --surface:      #1f1e1c;
+  --border:       #2e2c29;
+  --text:         #f0ece6;
+  --text-muted:   #8a8278;
+  --accent:       #e8703a;
+  --accent2:      #5b8ef5;
+  --accent-light: #2a1f18;
+  --nav-bg:       rgba(17, 16, 16, 0.92);
+  --shadow:       0 2px 24px rgba(0, 0, 0, 0.35);
+}
+
+/* ── RESET ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background var(--transition), color var(--transition);
+  overflow-x: hidden;
+}
+
+/* ── LAYOUT ── */
+section {
+  padding: 96px 28px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ── SECTION HEADERS ── */
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin-bottom: 16px;
+}
+
+.section-sub {
+  font-size: 1rem;
+  color: var(--text-muted);
+  max-width: 520px;
+  line-height: 1.7;
+}
+
+.section-header {
+  margin-bottom: 48px;
+}
+
+/* ── BOTONES ── */
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: inline-block;
+}
+.btn-primary:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--text);
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1.5px solid var(--border);
+  transition: all 0.2s;
+  display: inline-block;
+}
+.btn-outline:hover {
+  border-color: var(--text);
+  background: var(--bg2);
+}
+
+/* ── TAGS ── */
+.tag {
+  font-size: 0.78rem;
+  font-weight: 500;
+  padding: 4px 12px;
+  border-radius: 20px;
+  background: var(--bg2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+.tag.hl {
+  background: var(--accent-light);
+  color: var(--accent);
+  border-color: rgba(200, 82, 26, 0.2);
+}
+
+/* ── SCROLL REVEAL ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 28px;
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+footer span {
+  color: var(--accent);
+}

@@ -243,6 +243,13 @@
 .project-card:hover::before {
   opacity: 1;
 }
+/* Última card sola → centrada */
+.projects-grid .project-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
 
 .project-num {
   font-family: 'Syne', sans-serif;

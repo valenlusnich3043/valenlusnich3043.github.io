@@ -38,17 +38,16 @@ const translations = {
     "about.meta.loc":         "Ubicación",
 
     /* Proyectos */
-    "projects.label": "Proyectos",
-    "projects.title": "Trabajo destacado",
-    "projects.sub":   "Una selección de proyectos académicos y personales que demuestran mis habilidades técnicas.",
-    "p1.title": "Análisis de Ventas",
-    "p1.desc":  "Pipeline ETL completo con limpieza de datos en SQL, análisis exploratorio, modelado en Excel y dashboard interactivo en Power BI con KPIs y medidas DAX.",
-    "p2.title": "Sistema de Inventario",
-    "p2.desc":  "Sistema backend con arquitectura orientada a objetos usando Java y Spring Boot, con conexión y persistencia de datos en MySQL.",
-    "p3.title": "Base de Datos Empresarial",
-    "p3.desc":  "Sistema académico para gestión de clientes y presupuestos, implementando triggers SQL, stored procedures y una interfaz en Visual Basic .NET.",
-    "p4.title": "Videojuego de Plataformas",
-    "p4.desc":  "Proyecto académico desarrollado en Java aplicando principios de POO, herencia, polimorfismo y lógica de juego orientada a eventos.",
+    "p1.title": "ReseñIAs – CX Analytics Pipeline",
+    "p1.desc":  "Solución de ingeniería de datos que automatiza extracción, análisis de sentimiento con LLM (Gemini API) y visualización de opiniones de Google Maps. Detecta anomalías críticas y persiste información estructurada en MySQL para explotación analítica.",
+    "p2.title": "Análisis de Ventas",
+    "p2.desc":  "Pipeline ETL completo con limpieza de datos en SQL, análisis exploratorio, modelado en Excel y dashboard interactivo en Power BI con KPIs y medidas DAX.",
+    "p3.title": "Sistema de Inventario",
+    "p3.desc":  "Sistema backend con arquitectura orientada a objetos usando Java y Spring Boot, con conexión y persistencia de datos en MySQL.",
+    "p4.title": "Base de Datos Empresarial",
+    "p4.desc":  "Sistema académico para gestión de clientes y presupuestos, implementando triggers SQL, stored procedures y una interfaz en Visual Basic .NET.",
+    "p5.title": "Videojuego de Plataformas",
+    "p5.desc":  "Proyecto académico desarrollado en Java aplicando principios de POO, herencia, polimorfismo y lógica de juego orientada a eventos.",
 
     /* Habilidades */
     "skills.label":  "Habilidades",
@@ -58,6 +57,7 @@ const translations = {
     "sk.langs":      "Lenguajes",
     "sk.backend":    "Backend & Web",
     "sk.tools":      "Herramientas",
+    "sk.ai":    "AI & NLP",
 
     /* Contacto */
     "contact.label": "Contacto",
@@ -124,6 +124,8 @@ const translations = {
     "sk.langs":      "Languages",
     "sk.backend":    "Backend & Web",
     "sk.tools":      "Tools",
+    "sk.ai":    "IA & NLP",
+
 
     /* Contact */
     "contact.label": "Contact",

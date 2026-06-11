@@ -44,7 +44,6 @@ const translations = {
     "p6.title": "Videojuego de Plataformas",
     "p6.desc":  "Proyecto académico desarrollado en Java aplicando principios de POO, herencia, polimorfismo y lógica de juego orientada a eventos.",
 
-
     /* Habilidades */
     "skills.label":  "Habilidades",
     "skills.title":  "Stack técnico",
@@ -55,6 +54,7 @@ const translations = {
     "sk.tools":      "Herramientas",
     "sk.ai":    "AI & NLP",
     "sk.cloud": "Cloud (AWS)",
+
 
     /* Contacto */
     "contact.label": "Contacto",
@@ -104,14 +104,18 @@ const translations = {
     "projects.label": "Projects",
     "projects.title": "Featured work",
     "projects.sub":   "A selection of academic and personal projects that demonstrate my technical skills.",
-    "p1.title": "Sales Analysis",
-    "p1.desc":  "Full ETL pipeline with SQL data cleaning, exploratory analysis, Excel modeling and interactive Power BI dashboard with KPIs and DAX measures.",
-    "p2.title": "Inventory System",
-    "p2.desc":  "Backend system with object-oriented architecture using Java and Spring Boot, connected to a MySQL database for data persistence.",
-    "p3.title": "Enterprise Database System",
-    "p3.desc":  "Academic system for client and budget management, implementing SQL triggers, stored procedures and a Visual Basic .NET interface.",
-    "p4.title": "Platform Videogame",
-    "p4.desc":  "Academic project developed in Java applying OOP principles, inheritance, polymorphism and event-driven game logic.",
+    "p1.title": "FinTech Data Lakehouse",
+    "p1.desc":  "Arquitectura Data Lakehouse serverless en AWS para procesar hasta 100k transacciones financieras por lote. Pipeline ETL a formato Parquet con compresión Snappy (80%+ mejora en consultas), almacenamiento en S3, queries analíticas con Athena y dashboard en tiempo real con Streamlit.",
+    "p2.title": "ReseñIAs – CX Analytics Pipeline",
+    "p2.desc":  "Solución de ingeniería de datos que automatiza extracción, análisis de sentimiento con LLM (Gemini API) y visualización de opiniones de Google Maps. Detecta anomalías críticas y persiste información estructurada en MySQL para explotación analítica.",
+    "p3.title": "Análisis de Ventas",
+    "p3.desc":  "Pipeline ETL completo con limpieza de datos en SQL, análisis exploratorio, modelado en Excel y dashboard interactivo en Power BI con KPIs y medidas DAX.",
+    "p4.title": "Sistema de Inventario",
+    "p4.desc":  "Sistema backend con arquitectura orientada a objetos usando Java y Spring Boot, con conexión y persistencia de datos en MySQL.",
+    "p5.title": "Base de Datos Empresarial",
+    "p5.desc":  "Sistema académico para gestión de clientes y presupuestos, implementando triggers SQL, stored procedures y una interfaz en Visual Basic .NET.",
+    "p6.title": "Videojuego de Plataformas",
+    "p6.desc":  "Proyecto académico desarrollado en Java aplicando principios de POO, herencia, polimorfismo y lógica de juego orientada a eventos.",
 
     /* Skills */
     "skills.label":  "Skills",

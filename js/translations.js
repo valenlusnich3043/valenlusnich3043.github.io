@@ -1,10 +1,3 @@
-/* ============================================
-   js/translations.js
-   Textos en español e inglés para toda la web.
-   Para agregar un idioma nuevo: copiá un bloque
-   y cambiá los valores.
-   ============================================ */
-
 const translations = {
   es: {
     /* Navbar */
@@ -38,16 +31,19 @@ const translations = {
     "about.meta.loc":         "Ubicación",
 
     /* Proyectos */
-    "p1.title": "ReseñIAs – CX Analytics Pipeline",
-    "p1.desc":  "Solución de ingeniería de datos que automatiza extracción, análisis de sentimiento con LLM (Gemini API) y visualización de opiniones de Google Maps. Detecta anomalías críticas y persiste información estructurada en MySQL para explotación analítica.",
-    "p2.title": "Análisis de Ventas",
-    "p2.desc":  "Pipeline ETL completo con limpieza de datos en SQL, análisis exploratorio, modelado en Excel y dashboard interactivo en Power BI con KPIs y medidas DAX.",
-    "p3.title": "Sistema de Inventario",
-    "p3.desc":  "Sistema backend con arquitectura orientada a objetos usando Java y Spring Boot, con conexión y persistencia de datos en MySQL.",
-    "p4.title": "Base de Datos Empresarial",
-    "p4.desc":  "Sistema académico para gestión de clientes y presupuestos, implementando triggers SQL, stored procedures y una interfaz en Visual Basic .NET.",
-    "p5.title": "Videojuego de Plataformas",
-    "p5.desc":  "Proyecto académico desarrollado en Java aplicando principios de POO, herencia, polimorfismo y lógica de juego orientada a eventos.",
+    "p1.title": "FinTech Data Lakehouse",
+    "p1.desc":  "Arquitectura Data Lakehouse serverless en AWS para procesar hasta 100k transacciones financieras por lote. Pipeline ETL a formato Parquet con compresión Snappy (80%+ mejora en consultas), almacenamiento en S3, queries analíticas con Athena y dashboard en tiempo real con Streamlit.",
+    "p2.title": "ReseñIAs – CX Analytics Pipeline",
+    "p2.desc":  "Solución de ingeniería de datos que automatiza extracción, análisis de sentimiento con LLM (Gemini API) y visualización de opiniones de Google Maps. Detecta anomalías críticas y persiste información estructurada en MySQL para explotación analítica.",
+    "p3.title": "Análisis de Ventas",
+    "p3.desc":  "Pipeline ETL completo con limpieza de datos en SQL, análisis exploratorio, modelado en Excel y dashboard interactivo en Power BI con KPIs y medidas DAX.",
+    "p4.title": "Sistema de Inventario",
+    "p4.desc":  "Sistema backend con arquitectura orientada a objetos usando Java y Spring Boot, con conexión y persistencia de datos en MySQL.",
+    "p5.title": "Base de Datos Empresarial",
+    "p5.desc":  "Sistema académico para gestión de clientes y presupuestos, implementando triggers SQL, stored procedures y una interfaz en Visual Basic .NET.",
+    "p6.title": "Videojuego de Plataformas",
+    "p6.desc":  "Proyecto académico desarrollado en Java aplicando principios de POO, herencia, polimorfismo y lógica de juego orientada a eventos.",
+
 
     /* Habilidades */
     "skills.label":  "Habilidades",
@@ -58,6 +54,7 @@ const translations = {
     "sk.backend":    "Backend & Web",
     "sk.tools":      "Herramientas",
     "sk.ai":    "AI & NLP",
+    "sk.cloud": "Cloud (AWS)",
 
     /* Contacto */
     "contact.label": "Contacto",
@@ -125,6 +122,7 @@ const translations = {
     "sk.backend":    "Backend & Web",
     "sk.tools":      "Tools",
     "sk.ai":    "IA & NLP",
+    "sk.cloud": "Cloud (AWS)",
 
 
     /* Contact */

@@ -34,5 +34,6 @@ function applyTranslations(lang) {
 }
 
 function toggleLang() {
-  applyTranslations(currentLang === 'es' ? 'en' : 'es');
+  const newLang = currentLang === 'es' ? 'en' : 'es';
+  applyTranslations(newLang);
 }

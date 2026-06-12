@@ -31,6 +31,9 @@ const translations = {
     "about.meta.loc":         "Ubicación",
 
     /* Proyectos */
+    "projects.label": "Proyectos",
+    "projects.title": "Trabajo destacado",
+    "projects.sub":   "Una selección de proyectos académicos y personales que demuestran mis habilidades técnicas.",
     "p1.title": "FinTech Data Lakehouse",
     "p1.desc":  "Arquitectura Data Lakehouse serverless en AWS para procesar hasta 100k transacciones financieras por lote. Pipeline ETL a formato Parquet con compresión Snappy (80%+ mejora en consultas), almacenamiento en S3, queries analíticas con Athena y dashboard en tiempo real con Streamlit.",
     "p2.title": "ReseñIAs – CX Analytics Pipeline",

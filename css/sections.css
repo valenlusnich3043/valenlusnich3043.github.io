@@ -470,3 +470,10 @@
   opacity: 0.88;
   transform: translateY(-1px);
 }
+
+/* Con cantidad impar de cards: la última queda centrada */
+.projects-grid .project-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  max-width: 520px;
+  margin: 0 auto;
+}

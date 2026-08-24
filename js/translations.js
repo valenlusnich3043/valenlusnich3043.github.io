@@ -59,6 +59,7 @@ const translations = {
     "sk.tools":      "Herramientas",
     "sk.ai":    "AI & NLP",
     "sk.cloud": "Cloud (AWS)",
+    "sk.cicd": "CI/CD & Testing",   // en es:
 
 
     /* Contacto */
@@ -109,19 +110,21 @@ const translations = {
     "projects.label": "Projects",
     "projects.title": "Featured work",
     "projects.sub":   "A selection of academic and personal projects that demonstrate my technical skills.",
-    "p1.title": "FinTech Data Lakehouse",
-    "p1.desc":  "Serverless Data Lakehouse architecture on AWS to process up to 100k financial transactions per batch. ETL pipeline to Parquet with Snappy compression (80%+ query improvement), S3 storage, analytical queries via Athena and real-time Streamlit dashboard.",
-    "p2.title": "ReseñIAs – CX Analytics Pipeline",
-    "p2.desc":  "Data engineering solution that automates extraction, LLM-powered sentiment analysis (Gemini API) and visualization of Google Maps reviews. Detects critical anomalies and persists structured data in MySQL for analytical reporting.",
-    "p3.title": "Sales Analysis",
-    "p3.desc":  "Full ETL pipeline with SQL data cleaning, exploratory analysis, Excel modeling and interactive Power BI dashboard with KPIs and DAX measures.",
-    "p4.title": "Inventory System",
-    "p4.desc":  "Backend system with object-oriented architecture using Java and Spring Boot, connected to a MySQL database for data persistence.",
-    "p5.title": "Enterprise Database System",
-    "p5.desc":  "Academic system for client and budget management, implementing SQL triggers, stored procedures and a Visual Basic .NET interface.",
-    "p6.title": "Platform Videogame",
-    "p6.desc":  "Academic project developed in Java applying OOP principles, inheritance, polymorphism and event-driven game logic.",
-
+    "p1.title": "Interbank Settlement & Clearing Monitor",
+    "p1.desc":  "End-to-end solution for real-time interbank payment network monitoring. Implements multilateral liquidity netting algorithms, Circuit Breaker patterns and a Generative AI Agent (Gemini 2.5 Flash) for automated incident root cause analysis with LLMOps evaluation. CI/CD via GitHub Actions.",
+    "p2.title": "FinTech Data Lakehouse",
+    "p2.desc":  "Serverless Data Lakehouse architecture on AWS to process up to 100k financial transactions per batch. ETL pipeline to Parquet with Snappy compression (80%+ query improvement), S3 storage, analytical queries via Athena and real-time Streamlit dashboard.",
+    "p3.title": "ReseñIAs – CX Analytics Pipeline",
+    "p3.desc":  "Data engineering solution that automates extraction, LLM-powered sentiment analysis (Gemini API) and visualization of Google Maps reviews. Detects critical anomalies and persists structured data in MySQL for analytical reporting.",
+    "p4.title": "Sales Analysis",
+    "p4.desc":  "Full ETL pipeline with SQL data cleaning, exploratory analysis, Excel modeling and interactive Power BI dashboard with KPIs and DAX measures.",
+    "p5.title": "Inventory System",
+    "p5.desc":  "Backend system with object-oriented architecture using Java and Spring Boot, connected to a MySQL database for data persistence.",
+    "p6.title": "Enterprise Database System",
+    "p6.desc":  "Academic system for client and budget management, implementing SQL triggers, stored procedures and a Visual Basic .NET interface.",
+    "p7.title": "Platform Videogame",
+    "p7.desc":  "Academic project developed in Java applying OOP principles, inheritance, polymorphism and event-driven game logic.",
+    
     /* Skills */
     "skills.label":  "Skills",
     "skills.title":  "Tech stack",
@@ -132,7 +135,7 @@ const translations = {
     "sk.tools":      "Tools",
     "sk.ai":    "IA & NLP",
     "sk.cloud": "Cloud (AWS)",
-
+    "sk.cicd": "CI/CD & Testing",   
 
     /* Contact */
     "contact.label": "Contact",
